@@ -1,0 +1,7 @@
+[submodule "egui"]
+	path = egui
+	url = https://github.com/planetoryd/egui.git
+	branch = winit-0.29
+[submodule "winit"]
+	path = winit
+	url = https://github.com/rust-windowing/winit
