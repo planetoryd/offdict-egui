@@ -6,7 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-eframe = { version = "0.24.1", path = "../egui/crates/eframe" }
-egui = { version = "0.24.1", path = "../egui/crates/egui" }
-egui_extras = { version = "0.24.1", path = "../egui/crates/egui_extras" }
+eframe = "0.28.1"
+# egui = { version = "0.24.1", path = "../egui/crates/egui" }
+egui = "0.28.1"
+egui-plotter = { version = "0.3.0", path = "../egui-plotter" }
+egui_extras = "0.28.1"
 env_logger = "0.10.1"
